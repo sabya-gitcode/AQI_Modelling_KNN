@@ -48,7 +48,6 @@ The notebook excludes `Date`, `PM10`, `NH3`, `Toluene`, `Xylene`, and `AQI_Bucke
 
 Missing pollutant readings are filled with each feature's **training-set median**. The categorical city values are one-hot encoded, and the numeric features are standardized before fitting KNN.
 
-**Dataset attribution:** Add the original source URL and licence for `AQI.csv` here before publishing the dataset in this repository.
 
 ## Limitations and Scope
 
@@ -65,7 +64,7 @@ A useful next step would be a time-based holdout, followed by comparisons with a
 
 1. Place `AQI.csv` alongside `AQI_Model.ipynb`, or upload it to the notebook's working directory in Colab.
 2. Install dependencies: `pip install pandas numpy matplotlib seaborn scipy scikit-learn notebook`.
-3. Open `AQI_Model.ipynb` in Jupyter or Colab and run all cells from the top.
+3. Open `AQI_Model-2.ipynb` in Jupyter or Colab and run all cells from the top.
 
 The final cell writes `finalized_model.sav`, which contains both the fitted KNN model and fitted preprocessing transformer.
 
